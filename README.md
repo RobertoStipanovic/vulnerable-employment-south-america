@@ -6,7 +6,7 @@ pipeline — from the raw World Development Indicators release to a neural netwo
 country fixed effects — and finds that *how* you normalise the panel matters far more
 than which model you fit.
 
-> Final project for **Data Science for Economics**, Tilburg University.
+> Final project for **Data Science for Economics**, Tilburg University, Joint work with Tim Jetten.
 
 ---
 
