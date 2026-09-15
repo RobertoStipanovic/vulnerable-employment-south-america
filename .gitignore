@@ -1,0 +1,30 @@
+# --- Data -------------------------------------------------------------------
+# The full World Bank WDI release is ~190 MB, far above GitHub's file limit.
+# Recreate it with: python scripts/download_wdi.py
+data/raw/*
+!data/raw/README.md
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Jupyter ----------------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Models / artifacts -----------------------------------------------------
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# --- OS / editors -----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
