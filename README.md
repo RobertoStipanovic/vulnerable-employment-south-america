@@ -105,7 +105,7 @@ Secondary observations:
 ## Reproducing
 
 ```bash
-git clone https://github.com/<your-username>/vulnerable-employment-south-america.git
+git clone https://github.com/Roberto Stipanovic/vulnerable-employment-south-america.git
 cd vulnerable-employment-south-america
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
